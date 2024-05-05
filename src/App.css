@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 1.5rem;
+}
+
+.input-field label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.p-menubar-root-list{
+  position: relative;
+  left: 20%;
+  margin: 0;
+}
+
+.cardMenu{
+  position: relative;
+    max-width: 90%;
+    left: 5%;
+    top: 27px;
+}
+
+.containerTable{
+  width: 80%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f7f7f7;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.menu{
+  position: relative;
+  top: 50px;
+  max-width: 90%;
+  left: 5%;
+}
+
+.p-button-danger{
+  margin-left: 12px;
+}
+
+.graficauser{
+  position: relative;
+  height: 500px;
+  width: 32%;
+  top: 59px;
+  left: 49px;
+}
+
+.graficalibros{
+  position: relative;
+  left: 26%;
+}
+.Menugraficas{
+  display: flex;
+}
