@@ -49,7 +49,7 @@ export function Prestamos(){
             const newEstado = await TraerEstados()
             setEstados(newEstado)
             setlibros(newLibros)
-            setUsuarios(newUsuario)
+            setUsuarios(newUsuario.data)
             setPrestamos(newPrestamo)
        }
        Prestamos()
@@ -264,6 +264,7 @@ export function Prestamos(){
 
                     <Dropdown  value={usuario} onChange={(e) =>{ onInputChange(e, 'Usuario') ; setSelectedusuario(e.value) }} options={Usuarios} optionLabel="name" placeholder="Seleccciona un usuario" 
                     filter  className="w-full md:w-14rem" />
+
                 </div>
 
                 <div className="field">
